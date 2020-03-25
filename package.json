@@ -1,0 +1,22 @@
+{
+  "name": "curso-front",
+  "version": "1.0.0",
+  "description": "Curso de html, CSS, e javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbfreitas/curso-front-end.git"
+  },
+  "dependencies": {
+    "http-server": "latest"
+  },
+  "author": "Tarcísio e Andrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbfreitas/curso-front-end/issues"
+  },
+  "homepage": "https://github.com/tbfreitas/curso-front-end#readme"
+}
