@@ -21,7 +21,7 @@ table{
     width: 140px;
     margin: auto;
     height: 140px;
-    background: url('../Images/profile-image.jpg');
+    background: url('../Images/profile.png');
     border-radius: 50%;
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
@@ -91,4 +91,9 @@ table{
     height:100vh;
     padding:200px;
     margin-left: 50px;
+}
+
+.valueCurso:hover{
+  cursor: pointer;
+  color: blue;
 }
