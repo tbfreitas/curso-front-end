@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+
+}
+
+header{
+    background-color: #404040;
+    width: 180px;
+    height: 100vh;
+    box-shadow: 3px 0 5px #7F7F7F;
+    float: left;
+}
+
+table{
+    border-bottom: 1px solid #7F7F7F;
+}
+
+.space-to-description{
+    position: relative;
+    top: 40px;
+    width: 140px;
+    margin: auto;
+    height: 140px;
+    background: url('../Images/profile-image.jpg');
+    border-radius: 50%;
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    border:  1px solid #C2B8B2;
+}
+
+.space-resume{
+    position: relative;
+    top: 70px;
+    height: auto;
+    width: 140px;
+    margin: auto;
+
+}
+
+.info-about{
+    color : #C2B8B2; 
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.about-name{
+    position: relative;
+    top: 60px;
+    width: calc(100% - 5px);
+    height: 40px;
+    background-color: #C2B8B2;
+    text-align: center;
+    border-left: 5px solid #125E8A;
+}
+
+.about-name span{
+    color : #404040;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    
+}
+
+.socialMedia{
+    width: 64px;
+    margin: auto;
+    position: relative;
+    top : 165px;
+}
+
+.socialMediaLittleIcon{
+    width: 32px;
+    margin: auto;
+    position: relative;
+    top : 90px;
+    margin-top: 5px;
+}
+
+.socialMediaBigIcon{
+    width: 64px;
+    margin: auto;
+    position: relative;
+    top : 80px;
+    margin-top: 5px;
+}
+
+.about-me{
+    width: 100%;
+    background-color: #C2B8B2;
+    height:100vh;
+    padding:200px;
+    margin-left: 50px;
+}
