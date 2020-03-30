@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Introdução ao flexbox</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Introdução ao FlexBox</h1>
+    <h2>display</h2>
+    <div class="demo-wrapper">
+        <div class="demo-buttons">
+            <button onclick="changeParentClass('flex')"">flex</button>
+        <button onclick=" changeParentClass('inline-flex')"">inline-flex</button>
+            <button onclick="changeParentClass('block')"">block</button>
+
+    </div>
+    <div class=" demo-display">
+                <span>TextTextTextText</span>
+                <div class="parent">
+                    <div class="child">1</div>
+                    <div class="child">2</div>
+                    <div class="child">3</div>
+                    <div class="child">4</div>
+                </div>
+        </div>
+    </div>
+    <p>Flexible Box Layout, ou FlexBox é um modelo de layout, que permite criar um contexto para que elementos se ajustem responsivamente
+        seguindo propriedades e o tamanho disponível da tela ou container.
+    </p>
+    <p>Quando falamos em contexto na estilização, nos referimos a como elementos filhos irão se organizar em relação a seus pais,
+        ao passarmos a propriedade de display para o pai, tambem definimos que tipo de propriedades seus filhos podem tomar.
+    </p>
+    <p>Um container flex estabelece um novo contexto de formatação flex
+        para seus filhos. A ideia é a mesma de um contexto de block. Por exemplo, a propriedade float não
+        tem efeito dentro do flex, e as margins do parent nao colapsam com as margins dos filhos.
+    </p>
+    <p>Containers Flex possuem propriedades especiais, diferentes de um container block, porém,
+        ambos assumem a mesma caracteristica de gerar um "bloco" que ocupa uma linha inteira de seu pai.
+    </p>
+    <p>Isso muda com o inline-flex, que gera um elemento parent que se comporta inline com outros elementos, na mesma
+        linha, quando voce nao quer que seu container ocupe o espaço que outros elementos poderiam dividir.</p>
+</body>
+
+<script>
+    function changeParentClass(classname) {
+        let parent = document.getElementsByClassName("parent");
+        parent[0].className = "parent " + classname;
+    }
+</script>
+
+</html>

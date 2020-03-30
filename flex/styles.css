@@ -1,0 +1,56 @@
+html {
+    font-family: 'Roboto', serif;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.demo-display{
+    width: 80%;
+    border: solid teal 3px;
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.block {
+    display: block;
+}
+
+.child {
+    position: relative;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    padding: .5rem;
+    background-color: #ccc;
+    border: 1px solid #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    width: 80%;
+}
+
+h1, h2 {
+    font-family: Arial;
+}
+
+body {
+    padding: 20px;
+}
