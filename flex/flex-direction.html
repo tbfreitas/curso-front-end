@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Introdução ao flexbox</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h2>flex-direction</h2>
+    <div class="demo-wrapper">
+        <div class="demo-buttons">
+            <button onclick="changeParentClass('row')"">row</button>
+        <button onclick=" changeParentClass('row-reverse')"">row-reverse</button>
+            <button onclick="changeParentClass('column')"">column</button>
+            <button onclick="changeParentClass('column-reverse')"">column-reverse</button>
+    </div>
+    <div class=" demo-display">
+                <div class="parent flex">
+                    <div class="child">1</div>
+                    <div class="child">2</div>
+                    <div class="child">3</div>
+                    <div class="child">4</div>
+                </div>
+        </div>
+    </div>
+    <p>A propriedade flex-direction especifica como os flex-items são organizados no container
+        dizendo qual a direção do eixo principal do container.
+    </p>
+    <p>Quando a opção *-reverse é utilizada, note que apenas os ITENS são colocados de maneira reversa, isso não afeta
+        a direção de escrita, imagens ou formatação de texto interna.
+    </p>
+    <p>O valor padrão sempre será row.</p>
+    <h3>row</h3>
+    <p>O eixo principal será o mesmo de elementos inline e direção de escrita, que para nós é da esquerda para a direita.</p>
+    <h3>row-reverse</h3>
+    <p>O mesmo que row, porém os itens se iniciam da direita para a esquerda dentro do container.</p>
+    <h3>column</h3>
+    <p>O eixo principal passa a ser o mesmo de elementos block, e também segue nosso padrão de escrita de cima para baixo.</p>
+    <h3>column-reverse</h3>
+    <p>O mesmo de column exceto que se inicia de baixo para cima no container.</p>
+    <a style="float: left; margin: 10px" href="./introdução.html"><-- display </a>
+    </body>
+
+<script>
+    function changeParentClass(classname) {
+        let parent = document.getElementsByClassName("parent");
+        parent[0].className = "parent flex " + classname;
+    }
+</script>
+
+</html>

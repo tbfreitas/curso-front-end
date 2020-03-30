@@ -20,6 +20,10 @@ button{
     padding: 15px;
 }
 
+.parent {
+    border: dashed red 1px;
+}
+
 .flex {
     display: flex;
 }
@@ -30,6 +34,22 @@ button{
 
 .block {
     display: block;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
 }
 
 .child {
