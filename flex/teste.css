@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.3s ease;
+    border: 1px solid #FAFAFA;
+}
+
+.card:hover {
+    border: 1px solid #DDD
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid brown; */
+    margin: 12px;
+}
+
+.saldos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    
+}
+
+.saldo {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    flex: 1;
+    padding: 10px 12px;
+}
+
+.containerBotao {
+    padding: 30px;
+    /* border: 1px solid blue; */
+}
+
+.titulo {
+    font-weight: 300;
+    font-size: 15px;
+    color: #555555;
+}
+
+.tituloBoldBlue {
+
+    font-weight: 700;
+    font-size: 15px;
+    color: #1751A5;
+}
+
+.tituloBold {
+    font-family: 400;
+    font-size: 15px;
+}
+
+.texto {
+    font-size: 12px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.containerBotao {
+    text-align: center;
+}
+
+.containerBotao button {
+    background: #1B4EA5;
+    border-radius: 10px;
+    width: 185px;
+    height: 35px;
+    color: white;
+    font: Bold 12px/15px Helvetica Neue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border: none;
+}
+
+hr {
+    margin: 0 12px;
+    color: #DDD;
+    border-style: solid;
+}
