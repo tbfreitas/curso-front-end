@@ -8,6 +8,7 @@
     font-family: 'Lato', sans-serif;
     transition: all 0.3s ease;
     border: 1px solid #FAFAFA;
+    margin-top: 20px;
 }
 
 .card:hover {
@@ -80,10 +81,25 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     border: none;
+    transition: all 0.3s ease;
 }
 
 hr {
     margin: 0 12px;
     color: #DDD;
     border-style: solid;
+}
+
+.card:hover #botaobonito {
+    background: lightskyblue;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    width: 800px;
+    flex-wrap: wrap;
+    border: 1px solid black;
 }
